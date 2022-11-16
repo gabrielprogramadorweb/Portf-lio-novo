@@ -180,13 +180,23 @@ body {
 }
 
 @media (max-width:800px) {
+	.layers__caption{
+		font-size: 1em;
+	}
 	.sobre{
+	
 		position: absolute;
 		left: -14%;
 		text-justify: auto;
 	}
+
+	.sobre h2{
+	font-size: 2em;
+	}
 	.sobre p{
 		width: 50%;
+		font-size: 1em;
+		text-align: left;
 	}
 	.astronalt{
 		position: absolute;
@@ -197,4 +207,13 @@ body {
 	.content {
 	  will-change: transform;
 	}
+	.main-article {
+		height: 300px;
+	}
+	.main-article__header {
+		font-size: 2em;
+	  }
+	  .main-article__paragraph {
+		font-size: 1em;
+	  }
 }
