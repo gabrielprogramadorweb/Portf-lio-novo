@@ -12,11 +12,11 @@
 }
 body {
   background-color: #010101;
-  font-family: raleway_f, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.55;
 }
 nav {
-  font-family: raleway_f, sans-serif;
+  font-family: 'Poppins', sans-serif;
   position: absolute;
   display: flex;
   align-items: center;
@@ -58,13 +58,13 @@ nav ul li a {
   color: beige;
 }
 nav ul li a button {
-  
+  font-family: 'Poppins', sans-serif;
   background: none;
   color: aliceblue;
   padding: 10px 20px;
   border: none;
 margin-top: 5%;
-background: -webkit-linear-gradient(#003f36, #0a1112);
+
   border-radius: 30px;
   font-size: 1em;
 right: 0;
@@ -77,7 +77,7 @@ right: 0;
 nav ul button:hover {
   border: none;
   background: -webkit-linear-gradient(#003f3646, #0a11124f);
-  border: 3px solid rgb(0, 0, 0);
+  border: 3px solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
 }
 
