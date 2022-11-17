@@ -59,7 +59,7 @@ nav ul li a {
 }
 nav ul li a button {
   font-family: 'Poppins', sans-serif;
-  background: none;
+ background-color: #003f3600;
   color: aliceblue;
   padding: 10px 20px;
   border: none;
@@ -123,8 +123,8 @@ top: 0;
   nav ul button {
     background: -webkit-linear-gradient(#003f36, #0a1112);
     width: 150px;
-
     font-size: 18px;
     margin: 10px;
+    border:2px solid #506c68;
   }
 }
