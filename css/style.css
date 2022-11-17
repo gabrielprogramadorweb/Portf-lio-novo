@@ -253,6 +253,8 @@ nav ul button {
   margin-left: 15px;
   margin-right: 20px;
   cursor: pointer;
+  transition: all 400ms ease;
+  transform-style: preserve-3d;
 }
 nav ul button #b {
   background: -webkit-linear-gradient(#c9fff7, #c0c3ff);
