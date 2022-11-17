@@ -2,9 +2,10 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300";
 
 nav {
+  position: absolute;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  text-align: right;
   height: 100px;
 }
 nav .menu-icon {
@@ -18,27 +19,15 @@ nav .menu-icon img {
   right: 2%;
 
   position: fixed;
-}
-.logo {
-  margin-left: 50px;
-  position: relative;
-  top: -10%;
-}
-.logo img {
-  left: 10%;
-}
-nav .logo a {
-  font-size: 35px;
-  font-weight: bold;
-  color: blanchedalmond;
-  text-decoration: none;
+
 }
 nav ul {
   display: flex;
   list-style: none;
   z-index: 2;
   position: relative;
-  align-items: center;
+  align-items:flex-start;
+  right: 0;
 }
 nav ul li {
   padding: 0 15px;
@@ -74,34 +63,20 @@ nav ul button:hover {
 
 @media (max-width: 770px) {
   
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    background-color: none;
-   
-  }
+
   nav .menu-icon {
     display: block;
     right: 0;
-position: fixed;
+    position: fixed;
     padding-right: 15px;
     margin: 0;
     position: absolute;
 
   }
-  .logo {
-    display: flex;
-    left: 0;
-    padding-left: 15%;
-    margin: 0;
-    z-index: 3;
-    position: absolute;
-  }
+
   nav ul {
     position: fixed;
-    width: 45%;
+    width: 55%;
     z-index: 2;
     height: 100%;
     top: 0;
@@ -133,3 +108,4 @@ position: fixed;
     margin: 10px;
   }
   
+}
