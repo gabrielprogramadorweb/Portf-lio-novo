@@ -13,7 +13,7 @@ sr.reveal('.nave', {
 
 });
 
-sr.reveal('.menu-icon', { 
+sr.reveal('.', { 
     rotate:{ x: 100, y: 100, z: 0},
     duration:2500,
 });

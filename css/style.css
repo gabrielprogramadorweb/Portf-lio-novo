@@ -256,15 +256,11 @@ nav ul button {
   transition: all 400ms ease;
   transform-style: preserve-3d;
 }
-nav ul button #b {
-  background: -webkit-linear-gradient(#c9fff7, #c0c3ff);
-  border: 2px solid white;
- 
-}
+
 
 nav ul button:hover {
   border: none;
-  background: -webkit-linear-gradient(#c9fff7, #c0c3ff);
+  background: -webkit-linear-gradient(#c9fff7, #616167);
   border: 3px solid rgb(0, 0, 0);
   color: black;
 }
@@ -575,7 +571,7 @@ h1 {
   nav .menu-icon {
     display: block;
     right: 0;
-
+position: fixed;
     padding-right: 15px;
     margin: 0;
     position: absolute;
