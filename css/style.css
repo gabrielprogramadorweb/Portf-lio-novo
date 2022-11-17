@@ -64,8 +64,7 @@ nav ul li a button {
   padding: 10px 20px;
   border: none;
 margin-top: 5%;
-background: -webkit-linear-gradient(#c9fff7, #616167);
-
+background: -webkit-linear-gradient(#003f36, #0a1112);
   border-radius: 30px;
   font-size: 1em;
 right: 0;
@@ -77,9 +76,9 @@ right: 0;
 
 nav ul button:hover {
   border: none;
-  background: -webkit-linear-gradient(#c9fff7, #616167);
+  background: -webkit-linear-gradient(#003f3646, #0a11124f);
   border: 3px solid rgb(0, 0, 0);
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 @media (max-width: 770px) {
@@ -89,11 +88,11 @@ nav ul button:hover {
     position: fixed;
     padding-right: 15px;
     margin: 0;
-    margin-top: 10%;
+top: 0;
     position: absolute;
   }
   nav .menu-icon img {
-    margin-top: 10%;
+    margin-top:;
   }
 
   nav ul {
@@ -109,7 +108,7 @@ nav ul button:hover {
     flex-direction: column;
     justify-content: center;
     transition: 0.5s ease-in;
-    background: -webkit-linear-gradient(#c9fff7, #c0c3ff);
+    background: -webkit-linear-gradient(#003f36, #0a1112);
   }
   nav ul.active {
     transform: translateX(0);
@@ -122,7 +121,7 @@ nav ul button:hover {
     color: aliceblue;
   }
   nav ul button {
-    background: -webkit-linear-gradient(#96c5be, #242223);
+    background: -webkit-linear-gradient(#003f36, #0a1112);
     width: 150px;
 
     font-size: 18px;
