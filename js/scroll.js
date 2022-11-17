@@ -3,7 +3,7 @@ window.sr = ScrollReveal({ reset: true});
 sr.reveal('.layer__header', { duration: 3000});
 
 sr.reveal('.layer layers__front', {  duration: 3000});
-sr.reveal('.main-article', {  duration: 3000});
+sr.reveal('.main-article__content', {  duration: 3000});
 sr.reveal('.sobre', {  duration: 3000});
 
 
