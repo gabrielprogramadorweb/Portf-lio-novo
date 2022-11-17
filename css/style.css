@@ -79,6 +79,8 @@ nav ul button:hover {
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    background-color: none;
+   
   }
   nav .menu-icon {
     display: block;
@@ -111,6 +113,7 @@ position: fixed;
     justify-content: center;
     transition: 0.5s ease-in;
     background: -webkit-linear-gradient(#c9fff7, #c0c3ff);
+   
   }
   nav ul.active {
     transform: translateX(0);
