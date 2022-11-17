@@ -1,11 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
 @import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300";
 
+@font-face {
+  font-family: raleway_f;
+  src: url(../fonts/raleway-regular.woff2);
+}
+@font-face {
+  font-family: raleway_f;
+  src: url(../fonts/raleway-black.woff2);
+  font-weight: 900;
+}
+body {
+  background-color: #010101;
+  font-family: raleway_f, sans-serif;
+  line-height: 1.55;
+
+}
 nav {
+  font-family: raleway_f, sans-serif;
   position: absolute;
   display: flex;
-  justify-content: space-between;
-  text-align: right;
+  align-items: center;
   height: 100px;
 }
 nav .menu-icon {
@@ -25,14 +40,16 @@ nav ul {
   display: flex;
   list-style: none;
   z-index: 2;
-  position: relative;
-  align-items:flex-start;
-  right: 0;
+  position: absolute;
+ 
+ 
 }
 nav ul li {
+  right: 0%;
   padding: 0 15px;
 }
 nav ul li a {
+  right: 0%;
   text-decoration: none;
   font-size: 17px;
   text-transform: uppercase;
@@ -43,9 +60,10 @@ nav ul button {
   color: aliceblue;
   padding: 10px 20px;
  border: none;
+
  border-radius: 30px;
-  font-size: 16px;
-  letter-spacing: 1px;
+  font-size: 1em;
+
   margin-left: 15px;
   margin-right: 20px;
   cursor: pointer;
@@ -70,7 +88,14 @@ nav ul button:hover {
     position: fixed;
     padding-right: 15px;
     margin: 0;
+    margin-top: 10%;
     position: absolute;
+
+  }
+  nav .menu-icon img{
+   
+    margin-top: 10%;
+    
 
   }
 
