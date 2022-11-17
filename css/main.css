@@ -69,10 +69,14 @@ nav ul li{
 .layers__base {
   transform: translate3d(0, calc(var(--scrollTop) / 1.6), 0);
   z-index: 0;
+  
   height: 100%;
   margin: 0;
+ margin-left: -50;
 
 }
+
+
 .layers__middle {
   transform: translate3d(0, calc(var(--scrollTop) / 2.5), 0);
 }
@@ -219,6 +223,16 @@ nav ul li{
   .layers__caption {
     font-size: 1em;
   }
+  .layers__base {
+    
+    justify-items: right;
+   right: 0;
+   background-position: right;
+     width: 100%;
+     margin: 0;
+    
+   
+   }
   .sobre {
     left: -14%;
     position: absolute;
