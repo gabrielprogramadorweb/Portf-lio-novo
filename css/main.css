@@ -18,12 +18,14 @@
   font-weight: 900;
 }
 body {
+ 
   background-color: #010101;
   font-family: raleway_f, sans-serif;
   line-height: 1.55;
 }
 .main-header {
   position: relative;
+  box-sizing: border-box;
 }
 .main-header::after {
   content: "";
@@ -205,24 +207,33 @@ body {
   top: 0;
 }
 
-@media (max-width:800px) {
+@media (max-width:700px) {
 	.layers__caption{
 		font-size: 1em;
 	}
 	.sobre{
-	
+	left: -14%;
 		position: absolute;
-		left: -14%;
-		text-justify: auto;
+
+	
 	}
 
 	.sobre h2{
 	font-size: 2em;
+  
+  text-align: left;
 	}
+ .sobre .main-article__header{
+    margin-left: 20%;
+    text-align: left;
+    padding: 0;
+    left: 1%;
+  }
 	.sobre p{
 		width: 50%;
 		font-size: 1em;
 		text-align: left;
+    left: 1%;
 	}
 	.astronalt{
 		position: absolute;
@@ -254,15 +265,21 @@ body {
     margin: 0;
     padding: 0;
     left: 0;
+    text-align: ce;
+    margin-left: 8%;
+    margin-right: 8%;
     top: 6%;
+    letter-spacing: 9px;
+    word-spacing: -6px;
     position: relative;
+    margin-bottom: 10%;
     
 	  }
-    .main-article__paragraph {
+    .sobre .main-article__paragraph {
       font-size: 1em;
    
-   
-      margin-left: 23%;
+   left: 5%;
+      margin-left: 22%;
       
       }
 
@@ -273,4 +290,7 @@ body {
     margin-left: 8%;
     margin-right: 8%;
 	  }
+    .nave img{
+      margin-top: -20%;
+    }
 }
