@@ -14,7 +14,6 @@ body {
   background-color: #010101;
   font-family: raleway_f, sans-serif;
   line-height: 1.55;
-
 }
 nav {
   font-family: raleway_f, sans-serif;
@@ -22,6 +21,9 @@ nav {
   display: flex;
   align-items: center;
   height: 100px;
+  left: 60%;
+ 
+
 }
 nav .menu-icon {
   cursor: pointer;
@@ -34,15 +36,15 @@ nav .menu-icon img {
   right: 2%;
 
   position: fixed;
-
 }
+
 nav ul {
   display: flex;
   list-style: none;
   z-index: 2;
+ 
+
   position: absolute;
- 
- 
 }
 nav ul li {
   right: 0%;
@@ -55,22 +57,24 @@ nav ul li a {
   text-transform: uppercase;
   color: beige;
 }
-nav ul button {
+nav ul li a button {
+  
   background: none;
   color: aliceblue;
   padding: 10px 20px;
- border: none;
+  border: none;
+margin-top: 5%;
 
- border-radius: 30px;
+left: 50%;
+transform: translateX(50%);
+  border-radius: 30px;
   font-size: 1em;
+right: 0;
 
-  margin-left: 15px;
-  margin-right: 20px;
   cursor: pointer;
   transition: all 400ms ease;
   transform-style: preserve-3d;
 }
-
 
 nav ul button:hover {
   border: none;
@@ -80,8 +84,6 @@ nav ul button:hover {
 }
 
 @media (max-width: 770px) {
-  
-
   nav .menu-icon {
     display: block;
     right: 0;
@@ -90,13 +92,9 @@ nav ul button:hover {
     margin: 0;
     margin-top: 10%;
     position: absolute;
-
   }
-  nav .menu-icon img{
-   
+  nav .menu-icon img {
     margin-top: 10%;
-    
-
   }
 
   nav ul {
@@ -113,7 +111,6 @@ nav ul button:hover {
     justify-content: center;
     transition: 0.5s ease-in;
     background: -webkit-linear-gradient(#c9fff7, #c0c3ff);
-   
   }
   nav ul.active {
     transform: translateX(0);
@@ -132,5 +129,4 @@ nav ul button:hover {
     font-size: 18px;
     margin: 10px;
   }
-  
 }
