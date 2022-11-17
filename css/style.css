@@ -30,11 +30,13 @@ nav .menu-icon {
   display: none;
   position: fixed;
   z-index: 1;
+  
   cursor: pointer;
 }
 nav .menu-icon img {
   right: 2%;
-
+  transition: all 400ms ease;
+  transform-style: preserve-3d;
   position: fixed;
 }
 
@@ -63,12 +65,10 @@ nav ul li a button {
   color: aliceblue;
   padding: 10px 20px;
   border: none;
-margin-top: 5%;
-
+  margin-top: 5%;
   border-radius: 30px;
   font-size: 1em;
-right: 0;
-
+  right: 0;
   cursor: pointer;
   transition: all 400ms ease;
   transform-style: preserve-3d;
@@ -88,12 +88,10 @@ nav ul button:hover {
     position: fixed;
     padding-right: 15px;
     margin: 0;
-top: 0;
+    top: 0;
     position: absolute;
   }
-  nav .menu-icon img {
-    margin-top:;
-  }
+
 
   nav ul {
     position: fixed;

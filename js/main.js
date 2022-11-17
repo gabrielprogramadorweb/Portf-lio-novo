@@ -4,10 +4,10 @@ var iconMenu = document.querySelector('nav .menu-icon img');
 
 menuBar.addEventListener('click', function(){
 
-    if(iconMenu.getAttribute("src") == 'menu.png') {
+    if(iconMenu.getAttribute("src") == 'img/menu.png') {
         iconMenu.setAttribute("src", "close.png");
     }else{
-        iconMenu.setAttribute("src","menu.png");
+        iconMenu.setAttribute("src","img/menu.png");
     }
     menu.classList.toggle('active');
 });
