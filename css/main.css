@@ -275,15 +275,15 @@ nav ul li{
   }
   .sobre .main-article__paragraph {
     font-size: 1em;
-    left: 5%;
+    
     margin-left: 22%;
   }
 
   .main-article__paragraph2 {
     font-size: 1em;
-    text-align: justify;
-    margin-left: 6%;
-    margin-right: 6%;
+    text-align: center  ;
+   
+   
     width: 100%;
   }
   .nave img {
