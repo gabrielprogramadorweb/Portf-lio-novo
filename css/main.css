@@ -269,8 +269,8 @@ body {
     margin-left: 8%;
     margin-right: 8%;
     top: 6%;
-    letter-spacing: 9px;
-    word-spacing: -6px;
+    letter-spacing: 4px;
+    word-spacing: ;
     position: relative;
     margin-bottom: 10%;
     
@@ -287,8 +287,8 @@ body {
 		font-size: 1em;
   
  text-align: justify;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 6%;
+    margin-right: 6%;
 	  }
     .nave img{
       margin-top: -20%;
